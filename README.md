@@ -44,9 +44,11 @@ TODO
 A. The intended orientation is what Link ECU uses, but should also work with Haltech and others. You may notice that in both versions pins 1 and 2 power and ground and pins 3 and 4 are CAN low and CAN high. Power and ground pins can be interchanged and so can the CAN low and high as long as every device that is plugged into this hub follows this standard. If this isn't clear just think of the markings on the PCB as CAN 1 and CAN 2. They don't actually care if they are high or low. They are just marked to make it easier for assembly. Same with power and ground. These are sized the same internally, so you could use the power pin as the ground and vice versa if you need to for your application. 
 
 Link's orientation: 
+
 ![Link ECU CAN pinout](/Images/link_ecu_can_bus_pinout.png)
 
 Haltech's orientation (wire side): 
+
 ![Haltech ECU CAN pinout](/Images/haltech_ecu_can_bus_pinout.png)
 
 
