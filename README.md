@@ -16,12 +16,12 @@ This project will walk you through building your own CAN bus hub to meet your ne
 ## IMPORTANT
 * Do not exceed 10 amps total on the hub. This means all of your plugs combined should not exceed 10 amps. It would be ideal to put a fuse prior to the hub to ensure this is not exceeded. Read the PCB readme for more information on amperage. 
 * Do not exceed 7 amps total on each of the plugs. The DTM pins are only capable of 7 amps and so is the PCB. Read the PCB readme for more information on amperage. 
-* This design does not support the DTM waterproof gasket that comes with standard DTM plugs. This is partly due to the high cost of the gasket ($4 each) and partly due to the added complexity for 3D printing. Due to this is it not recommended to use this design in an area that will see direct contact with water. 
+* This design does not support the DTM waterproof gasket that comes with standard DTM plugs. This is partly due to the high cost of the gasket ($4 each) and partly due to the added complexity for 3D printing. Due to this is it not recommended to use this design in an area that will see direct contact with water or particulates that can cause electrical problems. 
 
 ## Tools Needed 
 1. Soldering iron 
 2. 3D printer (read FAQ if you do not have one)
-3. Allen keys 
+3. Allen keys for each bolt size
 4. Needle nose pliars 
 5. Wire strippers (only needed if doing more than one row)
 
@@ -40,6 +40,22 @@ This project will walk you through building your own CAN bus hub to meet your ne
 TODO 
 
 ## FAQ
+**Q. How much does it cost to build?**
+
+A. This will depend on how many plugs you need, but a quick breakdown might look like the following. All prices are in USD and estimates based on my purchases. This assumes you have solder, soldering iron, and a 3D printer.
+
+| **Part** | **Cost Estimate** | **Quantity** |
+|----------|-------------------|--------------|
+|Pins      | $0.15 - $0.24     | 4 per plug   |
+|PCB       | $0.70 - $1        | 1 per plug   |
+|Filament  | $0.30 - $0.50     | 1 per plug   |
+|M2 Bolts  | TODO              | min of 2 per plug |
+|M3 Bolts  | TODO              | min of 4     |
+|M2 Threaded Inserts | TODO    | min of 2 per plug |
+|M3 Threaded Inserts | TODO    | min of 4     |
+
+Example: A 10 plug hub should cost between $16 and $24.60 in materials.
+
 **Q. What pin orientation is used?**
 
 A. The intended orientation is what Link ECU uses, but should also work with Haltech and others. You may notice that in both versions pins 1 and 2 power and ground and pins 3 and 4 are CAN low and CAN high. Power and ground pins can be interchanged and so can the CAN low and high as long as every device that is plugged into this hub follows this standard. If this isn't clear just think of the markings on the PCB as CAN 1 and CAN 2. They don't actually care if they are high or low. They are just marked to make it easier for assembly. Same with power and ground. These are sized the same internally, so you could use the power pin as the ground and vice versa if you need to for your application. 
@@ -60,7 +76,7 @@ A. If you are in the US feel free to contact me. I might have some available and
 
 **Q. Can I sell these?**
 
-A. I put this project under an MIT license. You are free to sell them if you would like. I would just ask that you reference back to this project so it can help people who are looking for a DIY solution. 
+A. I put this project under an MIT license. You are free to sell them if you would like. I just ask that you add a reference back to this project so it can help people who are looking for a DIY solution. 
 
 
 **Q. What if I don't have a 3D printer?** 
