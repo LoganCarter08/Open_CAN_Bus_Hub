@@ -27,7 +27,7 @@ Note: All Amazon links below are just to serve as an example of what you are loo
 | Soldering Iron | Any will do, but a pointed tip is helpful | https://amzn.to/42WFt6c |
 | 3D Printer | Read the FAQ if you do not have one. |  |
 | Allen Keys | They'll often send some with bolts. | https://amzn.to/4j0mix5 |
-| Needle Nose Pliars | These are not mandatory, but make assembly easier. | https://amzn.to/3GLlzma | 
+| Needle Nose Pliars | These are not required, but make assembly easier. | https://amzn.to/3GLlzma | 
 | Wire Strippers | Only needed if doing more than one row. | https://amzn.to/4kl7wSS |
 
 
@@ -38,13 +38,13 @@ Note: All Amazon links below are just to serve as an example of what you are loo
 | **Part** | **Details** | **Link** | 
 |----------|-------------|----------|
 | Solder   | Pretty much any basic solder for electronics should work well. | https://amzn.to/4mdSlfK |
-| Filament | I recommend ASA. | https://amzn.to/44zXtVi |
+| Filament | I recommend ASA | https://amzn.to/44zXtVi |
 | DTM Pins | PN: 0460-202-20141 | https://www.te.com/en/product-0460-202-20141.html |
 | M2 Bolts | M2x4mm socket cap | https://amzn.to/3GLZ6FB | 
 | M3 Bolts | M3x12mm flat cap | https://amzn.to/3GRSxkQ |
 | M2 Threaded Inserts | M2x3.2mmx4mm | https://amzn.to/4m9bsb3| 
 | M3 Threaded Inserts | M3x5mmx4mm   | https://amzn.to/3EYypgh | 
-| 120ohm Resistor | 1/4 watt. | https://amzn.to/42SdeFQ | 
+| 120ohm Resistor | 1/4 watt | https://amzn.to/42SdeFQ | 
 | PCBs | View PCB readme for more info on ordering | https://www.pcbway.com/project/shareproject/Open_CAN_Bus_Hub_V1_0_372ae918.html | 
 | Wire | Only needed if doing more than 1 row. Size according to your power needs. | | 
 
@@ -54,7 +54,7 @@ TODO
 ## FAQ
 **Q. How much does it cost to build?**
 
-A. This will depend on how many plugs you need, but a quick breakdown might look like the following. All prices are in USD and estimates based on my purchases. This assumes you have solder, soldering iron, and a 3D printer.
+A. This will depend on how many plugs you need, but a quick breakdown might look like the following. All prices are in USD and estimates based on my purchases. This assumes you have all tools. 
 
 | **Part** | **Cost Estimate Each** | **Quantity** |
 |----------|-------------------|--------------|
@@ -66,7 +66,7 @@ A. This will depend on how many plugs you need, but a quick breakdown might look
 |M2 Threaded Inserts | $0.06   | min of 2 per plug |
 |M3 Threaded Inserts | $0.09   | min of 4     |
 
-Example: A 10 plug hub should cost around $40 if you only bought 10 PCBs. The more you buy, the cheaper they are. For example, ordering 5 costs 10x more per PCB than ordering 100. 
+**Note:** The more PCB you order the cheaper they are. Example: A 10 plug hub should cost around $40 if you only bought 10 PCBs. A 20 plug hub should cost around $50 if you only bought 20 PCBs.
 
 **Q. What pin orientation is used?**
 
