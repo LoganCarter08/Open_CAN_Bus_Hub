@@ -4,7 +4,7 @@ An open source alternative to a CAN bus hub primarily used in aftermarket automo
 ## Overview
 This project is intended to reduce the cost of a simple part needed for many project cars. If you are building a car and need to add aftermarket equipment via CAN bus you will likely need a hub of some sort to distribute the network to each of your devices. 
 
-The existing products like [AEM](https://www.aemelectronics.com/products/ev_conversions/wiring_shop/wiring_harnesses/parts/30-2225?srsltid=AfmBOopf-43udBTczr3DMtdVAqn7zBDi4FWJSfJJbkCLwWn_8UP-PhpX) and [Haltech](https://www.haltech.com/product/ht-159000-elite-can-hub-4-port-dtm-4/?srsltid=AfmBOop2I1wcCl7ELiAaJ4Hz_9G2S5Ku90I_iyAMGlEmO2NZ8aU0mGMG) are very expensive, are limited to three devices after connecting the ECU, and require external resistor termination. This project addresses these issues. 
+The existing products like [AEM](https://www.aemelectronics.com/products/ev_conversions/wiring_shop/wiring_harnesses/parts/30-2225?srsltid=AfmBOopf-43udBTczr3DMtdVAqn7zBDi4FWJSfJJbkCLwWn_8UP-PhpX), [Haltech](https://www.haltech.com/product/ht-159000-elite-can-hub-4-port-dtm-4/?srsltid=AfmBOop2I1wcCl7ELiAaJ4Hz_9G2S5Ku90I_iyAMGlEmO2NZ8aU0mGMG), and [CANChecked](https://trailbrake.com/canchecked-cbd08-bus-hub/?srsltid=AfmBOopn7O5V_E_J0bepSbhidaalyBVMSegGgtooptUzHmF67YKdkKrH) are very expensive, are limited to a few devices after connecting the ECU, and often require external resistor termination. This project addresses these issues. 
 
 This project will walk you through building your own CAN bus hub to meet your needs. 
 
