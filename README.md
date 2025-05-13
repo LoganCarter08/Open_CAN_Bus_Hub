@@ -19,22 +19,34 @@ This project will walk you through building your own CAN bus hub to meet your ne
 * This design does not support the DTM waterproof gasket that comes with standard DTM plugs. This is partly due to the high cost of the gasket ($4 each) and partly due to the added complexity for 3D printing. Due to this is it not recommended to use this design in an area that will see direct contact with water or particulates that can cause electrical problems. 
 
 ## Tools Needed 
-1. Soldering iron 
-2. 3D printer (read FAQ if you do not have one)
-3. Allen keys for each bolt size
-4. Needle nose pliars 
-5. Wire strippers (only needed if doing more than one row)
+
+Note: All Amazon links below are just to serve as an example of what you are looking for. These can be substituted with any equivalent tool. 
+
+| **Tool** | **Details** | **Link** | 
+|----------|-------------|----------|
+| Soldering Iron | Any will do, but a pointed tip is helpful | https://amzn.to/42WFt6c |
+| 3D Printer | Read the FAQ if you do not have one. |  |
+| Allen Keys | They'll often send some with bolts. | https://amzn.to/4j0mix5 |
+| Needle Nose Pliars | These are not mandatory, but make assembly easier. | https://amzn.to/3GLlzma | 
+| Wire Strippers | Only needed if doing more than one row. | https://amzn.to/4kl7wSS |
+
 
 ## Parts Needed
-1. Solder 
-2. 3D printer filament (ASA is recommended for automotive)
-3. 2mm diameter by 4mm long socket cap bolts 
-4. 3mm diameter by 12mm long flat head cap bolts
-5. 2mm diameter by 4mm long threaded inserts 
-6. 3mm diameter by 4mm long threaded inserts 
-7. 120ohm resistor (if adding a termination resistor)
-8. PCB (view readme in the PCB folder for more information)
-9. Wire (if using more than 1 row)
+
+Note: All Amazon links below are just to serve as an example of what you are looking for. These can be substituted with any equivalent part. 
+
+| **Part** | **Details** | **Link** | 
+|----------|-------------|----------|
+| Solder   | Pretty much any basic solder for electronics should work well. | https://amzn.to/4mdSlfK |
+| Filament | I recommend ASA. | https://amzn.to/44zXtVi |
+| DTM Pins | PN: 0460-202-20141 | https://www.te.com/en/product-0460-202-20141.html |
+| M2 Bolts | M2x4mm socket cap | https://amzn.to/3GLZ6FB | 
+| M3 Bolts | M3x12mm flat cap | https://amzn.to/3GRSxkQ |
+| M2 Threaded Inserts | M2x3.2mmx4mm | https://amzn.to/4m9bsb3| 
+| M3 Threaded Inserts | M3x5mmx4mm   | https://amzn.to/3EYypgh | 
+| 120ohm Resistor | 1/4 watt. | https://amzn.to/42SdeFQ | 
+| PCBs | View PCB readme for more info on ordering | https://www.pcbway.com/project/shareproject/Open_CAN_Bus_Hub_V1_0_372ae918.html | 
+| Wire | Only needed if doing more than 1 row. Size according to your power needs. | | 
 
 ## Assembly
 TODO 
@@ -44,21 +56,21 @@ TODO
 
 A. This will depend on how many plugs you need, but a quick breakdown might look like the following. All prices are in USD and estimates based on my purchases. This assumes you have solder, soldering iron, and a 3D printer.
 
-| **Part** | **Cost Estimate** | **Quantity** |
+| **Part** | **Cost Estimate Each** | **Quantity** |
 |----------|-------------------|--------------|
 |Pins      | $0.15 - $0.24     | 4 per plug   |
-|PCB       | $0.70 - $1        | 1 per plug   |
+|PCB       | $0.54 - $5.4      | 1 per plug   |
 |Filament  | $0.30 - $0.50     | 1 per plug   |
-|M2 Bolts  | TODO              | min of 2 per plug |
-|M3 Bolts  | TODO              | min of 4     |
-|M2 Threaded Inserts | TODO    | min of 2 per plug |
-|M3 Threaded Inserts | TODO    | min of 4     |
+|M2 Bolts  | $0.08             | min of 2 per plug |
+|M3 Bolts  | $0.17             | min of 4     |
+|M2 Threaded Inserts | $0.06   | min of 2 per plug |
+|M3 Threaded Inserts | $0.09   | min of 4     |
 
-Example: A 10 plug hub should cost between $16 and $24.60 in materials.
+Example: A 10 plug hub should cost around $40 if you only bought 10 PCBs. The more you buy, the cheaper they are. For example, ordering 5 costs 10x more per PCB than ordering 100. 
 
 **Q. What pin orientation is used?**
 
-A. The intended orientation is what Link ECU uses, but should also work with Haltech and others. You may notice that in both versions pins 1 and 2 power and ground and pins 3 and 4 are CAN low and CAN high. Power and ground pins can be interchanged and so can the CAN low and high as long as every device that is plugged into this hub follows this standard. If this isn't clear just think of the markings on the PCB as CAN 1 and CAN 2. They don't actually care if they are high or low. They are just marked to make it easier for assembly. Same with power and ground. These are sized the same internally, so you could use the power pin as the ground and vice versa if you need to for your application. 
+A. The intended orientation is what Link ECU uses, but should also work with Haltech and others. You may notice that in both versions pins 1 and 2 are power and ground and pins 3 and 4 are CAN low and CAN high. Power and ground pins can be interchanged and so can the CAN low and high as long as every device that is plugged into this hub follows this standard. If this isn't clear just think of the markings on the PCB as CAN 1 and CAN 2. They don't actually care if they are high or low. They are just marked to make it easier for assembly. Same with power and ground. These are sized the same internally, so you could use the power pin as the ground and vice versa if you need to for your application. 
 
 Link's orientation: 
 
@@ -92,3 +104,7 @@ A. CAD skills are really helpful here. The design is partially parametric, but i
 **Q. Do I need to know PCB design?**
 
 A. Not unless you need to make changes to the design or want to contribute to the project. 
+
+## Disclaimers
+- All Amazon links are affiliate links.
+- The PCBWay page for the PCB does give me some money for each order placed. 
