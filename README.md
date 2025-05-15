@@ -61,10 +61,10 @@ Note: All Amazon links below are just to serve as an example of what you are loo
 8. Solder the pins to the PCB. Make sure you do not heat the pins up too much and melt the housing of your male plug. 
 ![soldered pins](Images/soldered_pins_1.jpg)
 ![pins from above](Images/plug_topside.jpg)
-9. Repeat steps 4 through 8 for every plug you in your hub. 
+9. Repeat steps 4 through 8 for every plug in your hub. 
 ![disconnected PCBs](Images/7x1_backside.jpg)
-10. If you are adding a termination resistor solder it to the PCB that needs it. It is recommended to add it to the last PCB in the hub, furthest from the ECU. Make sure to snip the excess leads flush with the PCB to ensure good fitment and no chances of shorting. 
-11. Solder the pads between each PCB. This means each pad should be soldered to the corresponding pad on the adjacent PCBs. If you are having a hard time getting your solder to bridge the gap it may be helpful to put a piece of wire between the boards or even a single strand from a multi strange wire. 
+10. If you are adding a termination resistor, solder it into the PCB that needs it. It is recommended to add it to the last PCB in the hub, furthest from the ECU. Make sure to snip the excess leads flush with the PCB to ensure good fitment into the printed piece and no chances of shorting. 
+11. Solder the pads between each PCB. This means each pad should be soldered to the corresponding pad on the adjacent PCBs. If you are having a hard time getting your solder to bridge the gap it may be helpful to put a piece of wire without insulation between the boards or even a single strand from a multi strand wire. 
 ![connected PCBs](Images/7x1_backside_soldered.jpg)
 12. Using the M3 bolts bolt the bottom half of the hub to the top half. 
 13. Install into the car and plug in all of your devices!
