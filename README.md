@@ -66,8 +66,10 @@ Note: All Amazon links below are just to serve as an example of what you are loo
 10. If you are adding a termination resistor, solder it into the PCB that needs it. It is recommended to add it to the last PCB in the hub, furthest from the ECU. Make sure to snip the excess leads flush with the PCB to ensure good fitment into the printed piece and no chances of shorting. 
 11. Solder the pads between each PCB. This means each pad should be soldered to the corresponding pad on the adjacent PCBs. If you are having a hard time getting your solder to bridge the gap it may be helpful to put a piece of wire without insulation between the boards or even a single strand from a multi strand wire. 
 ![connected PCBs](Images/7x1_backside_soldered.jpg)
-12. Using the M3 bolts bolt the bottom half of the hub to the top half. 
-13. Install into the car and plug in all of your devices!
+12. Repeat step 11 for every row in your box. 
+13. If you have more than 1 row you will need to connect each row with wires here. Make sure to keep the wires as short as possible as any excess will make bolting the bottom half on more difficult. If you need your box to handle higher amperages it is recommended to solder your power and ground wires to the through holes next to the corresponding pads. These will likely provide a better solder point for thicker wires and be more reliable. 
+14. Using the M3 bolts bolt the bottom half of the hub to the top half. 
+15. Install into the car and plug in all of your devices!
 
 ## FAQ
 **Q. How much does it cost to build?**
