@@ -48,8 +48,26 @@ Note: All Amazon links below are just to serve as an example of what you are loo
 | PCBs | View PCB readme for more info on ordering | https://www.pcbway.com/project/shareproject/Open_CAN_Bus_Hub_V1_0_372ae918.html | 
 | Wire | Only needed if doing more than 1 row. Size according to your power needs. | | 
 
-## Assembly
-TODO 
+## Build/Assemble
+1. Follow the [instructions](https://github.com/LoganCarter08/Open_CAN_Bus_Hub/tree/main/Model) in the Model readme for how to make the box that houses everything. 
+2. Follow the [instructions](https://github.com/LoganCarter08/Open_CAN_Bus_Hub/tree/main/PCB) in the PCB readme for how to order and assemble the PCBs. 
+3. Melt the M3 threaded inserts into the top piece. These will be in each of the four corners plus any you may have added in step 1. 
+4. Melt a minimum of two inserts into the top piece where the PCB will attach.If you only do two make sure they are diagonal from each other. 
+![plug with inserts](Images/plug_with_threads.jpg)
+5. Bolt each PCB to the top piece with the M2 bolts. Make sure the resistor is closest to the clip on the plug as shown below. The text on the PCB and the solder pads should be pointed away from the plug. 
+![plug with pcb](Images/plug_with_pcb.jpg)
+6. With the needle nose pliars insert the DTM pins into the holes on the PCB through the plug. 
+7. Take a male DTM plug and insert it making sure that all of your pins go into the pins on the male plug. You can gently push on the back of your pins to feel for resistance to make sure they are properly aligned and inserted.
+8. Solder the pins to the PCB. Make sure you do not heat the pins up too much and melt the housing of your male plug. 
+![soldered pins](Images/soldered_pins_1.jpg)
+![pins from above](Images/plug_topside.jpg)
+9. Repeat steps 4 through 8 for every plug you in your hub. 
+![disconnected PCBs](Images/7x1_backside.jpg)
+10. If you are adding a termination resistor solder it to the PCB that needs it. It is recommended to add it to the last PCB in the hub, furthest from the ECU. Make sure to snip the excess leads flush with the PCB to ensure good fitment and no chances of shorting. 
+11. Solder the pads between each PCB. This means each pad should be soldered to the corresponding pad on the adjacent PCBs. If you are having a hard time getting your solder to bridge the gap it may be helpful to put a piece of wire between the boards or even a single strand from a multi strange wire. 
+![connected PCBs](Images/7x1_backside_soldered.jpg)
+12. Using the M3 bolts bolt the bottom half of the hub to the top half. 
+13. Install into the car and plug in all of your devices!
 
 ## FAQ
 **Q. How much does it cost to build?**
