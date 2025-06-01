@@ -18,8 +18,8 @@ This project will walk you through building your own CAN bus hub to meet your ne
 
 ## IMPORTANT
 
-- Do not exceed 10 amps total on the hub. This means all of your plugs combined should not exceed 10 amps. It would be ideal to put a fuse prior to the hub to ensure this is not exceeded. Read the PCB readme for more information on amperage.
-- Do not exceed 7 amps total on each of the plugs. The DTM pins are only capable of 7 amps and so is the PCB. Read the PCB readme for more information on amperage.
+- Do not exceed 10 amps total on the hub unless you custom order heavier than 2oz copper on the board. This means all of your plugs combined should not exceed 10 amps. It would be ideal to put a fuse prior to the hub to ensure this is not exceeded. Read the PCB readme for more information on amperage.
+- Do not exceed 7 amps total on each of the plugs unless you custom order heavier than 2oz copper on the board. The DTM pins are only capable of 7 amps and so is the PCB. Read the PCB readme for more information on amperage.
 - This design does not support the DTM waterproof gasket that comes with standard DTM plugs. This is partly due to the high cost of the gasket ($4 each) and partly due to the added complexity for 3D printing. Due to this is it not recommended to use this design in an area that will see direct contact with water or particulates that can cause electrical problems.
 
 ## Tools Needed
