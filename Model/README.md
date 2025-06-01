@@ -1,4 +1,4 @@
-# CAN Hub CAD Model and Design
+# Open CAN Bus Hub CAD Model
 
 The following is intended to help with usage and modification of the parametric CAN hub 3D model. 
 
@@ -6,7 +6,7 @@ The following is intended to help with usage and modification of the parametric 
 
 You will need Fusion 360 and some mild CAD skills. The hard work of the model should be done for you, you just need to add mounting to fit your needs. If you are new to CAD then read the FAQ below to learn more. 
 
-## Instructions: 
+## Design Instructions: 
 1. Make sure Fusion 360 is installed on your computer. 
 2. Download the can_hub_parametric_model.f3d from this folder onto your computer. 
 3. Open Fusion 360 
@@ -33,6 +33,13 @@ You will need Fusion 360 and some mild CAD skills. The hard work of the model sh
 10. Add extra bolts between top and bottom. If you look at the model there are 4 bolts holding it together. If you have a very large box you will likely experience some gaps between the two pieces without bolts in the middle. These are left out because it's too ambiguous to parametrically decide when and where to add the extra bolts. 
 11. To save the models for printing find them in the Navigation -> Bodies folder, right click, hit Save as Mesh, press OK on the next menu, select where to save the file to and hit Save. You will need to do this for both the top and bottom pieces. 
 ![Save as mesh](../Images/save_as_mesh.png)
+
+## Assembly Instructions: 
+1. Melt the M3 threaded inserts into the top piece. These will be in each of the four corners plus any you may have added in the design process. 
+2. Melt a minimum of two inserts into the top piece where the PCB will attach. If you only do two make sure they are diagonal from each other.
+![plug with inserts](../Images/plug_with_threads.jpg)
+3. Repeat steps 1 and 2 for every plug in your hub. 
+
 
 ## Tips: 
 1. I would suggest opening the Bodies -> Bits and Pieces folder and printing the single top piece to test with your plugs before printing the full model. Some printers aren't as dimensionally accurate as others. If the recepticle is too small or too large try adjusting the plugScale parameter until it fits properly. 
